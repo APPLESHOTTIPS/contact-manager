@@ -40,3 +40,9 @@
 .contact-img {
     margin-top: -60px
 }
+
+.landing-page {
+    background: white url('https://www.apple.com/in/watchos/watchos-8/images/overview/hero/hero_watch_braided_pink__dfsi3a63m8ya_large.jpg') scroll center;
+    background-size: cover;
+    height: 100vh;
+}
