@@ -13,10 +13,16 @@ import Employees from './Components/ReactRouterFun/Employees';
 import EmployeeDetails from './Components/ReactRouterFun/EmployeeDetails';
 import Stocks  from './Components/ReactRouterFun/Stocks';
 import StockDetails from './Components/ReactRouterFun/StockDetails'
+import AuthCard from './Components/Auth/AuthCard';
+import Shop from './Components/ShopComponents/Shop';
 const App = () => {
   return (
   <React.Fragment> 
-        <Router>
+
+    <AuthCard/>
+    <Shop/>
+
+        {/* <Router>
         <Navbar/>
           <Switch>         
             <Route exact path='/'component= {Home}/>
@@ -27,7 +33,7 @@ const App = () => {
             <Route exact path='/stocks/:id'component= {StockDetails}/>
           </Switch>
 
-        </Router>
+        </Router> */}
   
  </React.Fragment>
 

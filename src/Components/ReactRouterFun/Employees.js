@@ -1,9 +1,9 @@
 import React,{useState,useEffect} from 'react';
 import Axios from 'axios';
-import { Link } from 'react-router-dom';
+import { useHistory} from 'react-router-dom';
 
  function Employees() {
-
+let History = useHistory();
   let [employees,setEmployees]=useState([]);
   let [errorMessage, setErrorMessage] = useState([]);
   useEffect(()=>{
@@ -16,6 +16,11 @@ import { Link } from 'react-router-dom';
        })
 
   },[]);
+  let selectEmp = (employee)=>{
+    History.push(`./stocks/${employee.id}`);
+    
+
+  }
   return (
     <>
    <div className="container p-3">
@@ -44,10 +49,10 @@ import { Link } from 'react-router-dom';
                 {
                   employees.map(employee => {
                     return(
-                      <tr key = {employee.id}>
+                      <tr key = {employee.id} onClick = {selectEmp.bind(this,employee)}>
                         <td>{employee.id}</td>
                         <td>
-                          <Link to = {`/employees/${employee.id}`} className ="text-bold">{employee.name}/</Link>
+                            {employee.name}
                         </td>
                         <td>{employee.market}</td>
                         <td>{employee.sector}</td>

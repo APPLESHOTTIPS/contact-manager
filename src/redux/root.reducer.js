@@ -1,8 +1,9 @@
 import { combineReducers } from "redux";
-import * as messageReducer  from "./wishMessage/wishMessage.reducer";
-import * as productReducer from './productItem/Product.reducer';
+import * as authReducer from './auth/auth.reducer';
+
+
 
 export const rootReducer = combineReducers({
-    [messageReducer.messageFeatureKey]:messageReducer.reducer,
-    [productReducer.productItemFeatureKey]:productReducer.reducer
+    [authReducer.authFeatureKey] : authReducer.reducer
+
 });
