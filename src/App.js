@@ -15,6 +15,7 @@ import Stocks  from './Components/ReactRouterFun/Stocks';
 import StockDetails from './Components/ReactRouterFun/StockDetails'
 import AuthCard from './Components/Auth/AuthCard';
 import Shop from './Components/ShopComponents/Shop';
+
 const App = () => {
   return (
   <React.Fragment> 
