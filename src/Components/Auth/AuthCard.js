@@ -13,11 +13,11 @@ const AuthCard = () => {
     let {loggedIn}= authInfo;
 
    let  clicked = ()=>{
-    dispatch(authActions.loginUser())
+    dispatch(authActions.Login_User)
 
     }
     let click= ()=>{
-        dispatch(authActions.logoutUser())
+        dispatch(authActions.Logout_User)
     }
     return (
      <>

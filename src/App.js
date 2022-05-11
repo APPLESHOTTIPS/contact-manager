@@ -6,22 +6,26 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Navbar from './Components/ReactRouterFun/Navbar';
-import Home from './Components/ReactRouterFun/Home';
-import About from'./Components/ReactRouterFun/About';
-import Employees from './Components/ReactRouterFun/Employees';
-import EmployeeDetails from './Components/ReactRouterFun/EmployeeDetails';
-import Stocks  from './Components/ReactRouterFun/Stocks';
-import StockDetails from './Components/ReactRouterFun/StockDetails'
-import AuthCard from './Components/Auth/AuthCard';
-import Shop from './Components/ShopComponents/Shop';
+// import Navbar from './Components/ReactRouterFun/Navbar';
+// import Home from './Components/ReactRouterFun/Home';
+// import About from'./Components/ReactRouterFun/About';
+// import Employees from './Components/ReactRouterFun/Employees';
+// import EmployeeDetails from './Components/ReactRouterFun/EmployeeDetails';
+// import Stocks  from './Components/ReactRouterFun/Stocks';
+// import StockDetails from './Components/ReactRouterFun/StockDetails'
+// import AuthCard from './Components/Auth/AuthCard';
+// import Shop from './Components/ShopComponents/Shop';
+import Usereff from './Components/usereff/Usereff';
+import UseReducer from './Components/useReducer/UseReducer';
 
 const App = () => {
   return (
   <React.Fragment> 
 
-    <AuthCard/>
-    <Shop/>
+   <Usereff/>
+   <UseReducer/>
+    {/* <AuthCard/>
+    <Shop/> */}
 
         {/* <Router>
         <Navbar/>
