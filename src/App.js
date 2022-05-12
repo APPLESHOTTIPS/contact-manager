@@ -15,15 +15,18 @@ import {
 // import StockDetails from './Components/ReactRouterFun/StockDetails'
 // import AuthCard from './Components/Auth/AuthCard';
 // import Shop from './Components/ShopComponents/Shop';
-import Usereff from './Components/usereff/Usereff';
-import UseReducer from './Components/useReducer/UseReducer';
+// import Usereff from './Components/usereff/Usereff';
+// import UseReducer from './Components/useReducer/UseReducer';
+import UserList from './Components/UserList';
 
 const App = () => {
   return (
   <React.Fragment> 
+<UserList/>
 
-   <Usereff/>
-   <UseReducer/>
+   
+   {/* <Usereff/>
+   <UseReducer/> */}
     {/* <AuthCard/>
     <Shop/> */}
 
