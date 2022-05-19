@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
     <>
     <nav className='navbar navbar-dark bg-secondary navbar-expand-sm'>
         <div className="container">
-            <Link to ="/"className='navbar-brand'>React Routing</Link>
+            <Link to ="/"className='navbar-brand'>SERVER-FETCHING</Link>
             <div className='collapse navbar-collapse'>
                 <ul className='navbar-nav'>
                     <li className='nav-item'>

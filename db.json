@@ -1,0 +1,34 @@
+{
+  "comments": [
+    {
+      "id": 3,
+      "name": "cheese amd corns",
+      "price": 0.4,
+      "location": "Refrigerated foods "
+    },
+    {
+      "id": 4,
+      "name": "cheese",
+      "price": 5.4,
+      "location": "food "
+    },
+    {
+      "id": 5,
+      "name": "cheese",
+      "price": 5.4,
+      "location": "food "
+    },
+    {
+      "id": 6,
+      "name": "cheese",
+      "price": 5.4,
+      "location": "food "
+    },
+    {
+      "id": "7",
+      "name": "arvind",
+      "price": "12",
+      "location": "bangalore"
+    }
+  ]
+}

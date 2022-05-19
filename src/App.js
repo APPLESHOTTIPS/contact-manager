@@ -18,11 +18,22 @@ import {
 // import Usereff from './Components/usereff/Usereff';
 // import UseReducer from './Components/useReducer/UseReducer';
 import UserList from './Components/UserList';
+import ListProducts from './Components/JSON_FAKE_SERVER/ListProducts';
+import AddProducts from './Components/JSON_FAKE_SERVER/AddProducts';
+import Navbar from './Components/JSON_FAKE_SERVER/Navbar';
+// import { Navbar } from 'react-bootstrap';
+import FormCreation from './Components/JSON_FAKE_SERVER/FormCreation';
 
 const App = () => {
   return (
-  <React.Fragment> 
-<UserList/>
+  <> 
+{/* <UserList/> */}
+  
+  {/* <div className='m-3 p-3' col-md-6>
+     <ListProducts/>
+     <AddProducts/>
+     </div>
+      */}
 
    
    {/* <Usereff/>
@@ -33,7 +44,7 @@ const App = () => {
         {/* <Router>
         <Navbar/>
           <Switch>         
-            <Route exact path='/'component= {Home}/>
+            <Route exact path='/'component= {App}/>
             <Route exact path='/about'component= {About}/>
             <Route exact path='/employees'component= {Employees}/>
             <Route exact path='/employees/:id'component= {EmployeeDetails}/>
@@ -42,8 +53,17 @@ const App = () => {
           </Switch>
 
         </Router> */}
+
+     <Router>
+        <Navbar/>
+              <Switch>
+                    <Route exact path ='/' component = {ListProducts}/>
+                    <Route exact path ='/list-products' component = {ListProducts}/>
+                    <Route exact path ='/add-products' component = {AddProducts}/>
+              </Switch>
+        </Router> 
   
- </React.Fragment>
+ </>
 
 
   )}
