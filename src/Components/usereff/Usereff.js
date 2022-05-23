@@ -1,6 +1,6 @@
 import React,{useRef} from 'react'
 
-function Usereff() {
+function Useref() {
 
     let refed = useRef(null);
 
@@ -39,4 +39,4 @@ function Usereff() {
   )
 }
 
-export default Usereff;
+export default Useref;

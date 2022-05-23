@@ -23,10 +23,15 @@ import AddProducts from './Components/JSON_FAKE_SERVER/AddProducts';
 import Navbar from './Components/JSON_FAKE_SERVER/Navbar';
 // import { Navbar } from 'react-bootstrap';
 import FormCreation from './Components/JSON_FAKE_SERVER/FormCreation';
+import { Form } from 'react-bootstrap';
+import Forms from './Components/REACT_FORMS1/Forms';
+import Useref from './Components/usereff/Usereff';
 
 const App = () => {
   return (
   <> 
+  <Forms/>
+  {/* <Useref/> */}
 {/* <UserList/> */}
   
   {/* <div className='m-3 p-3' col-md-6>
@@ -54,14 +59,18 @@ const App = () => {
 
         </Router> */}
 
-     <Router>
+
+        {/* mphasis traning */}
+     {/* <Router>
         <Navbar/>
               <Switch>
                     <Route exact path ='/' component = {ListProducts}/>
                     <Route exact path ='/list-products' component = {ListProducts}/>
                     <Route exact path ='/add-products' component = {AddProducts}/>
               </Switch>
-        </Router> 
+        </Router>  */}
+
+        {/* <UserList/> */}
   
  </>
 
